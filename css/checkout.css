@@ -1,0 +1,38 @@
+ul li {
+    display: block; margin: 0; 
+    height: 35px;
+    margin: 0;
+    padding: 0 0 10px 0;
+    overflow: hidden;
+}
+
+ul li a {margin-right: 10px; padding: 0 10px;}
+form ul#cart_items li input { 
+           position: relative;
+           margin-left: 100px; 
+           margin-right: 2%;
+           border: 3px solid black; 
+           width: 80px; height: 30px;
+           text-align: center;
+           font-size: 1.1rem;;
+}
+form ul#cart_items li span:last-child {
+    float: right; color: green;
+    font-weight: bold; font-size: 1.2rem;
+}
+form button { margin-left: 50%; width: 100px; height: 40px; border: 3px solid black; font-size: 1.2rem; border-radius: 5px;}
+form button#checkout {width: 180px; height: 60px; margin: 10px auto 20px -30%; }
+ul li span.title { font-size: 1.2rem; float: left; width: 150px;}
+form span .itemPrice { float: right; margin: 0 ; padding: 0; }
+p#continue { float: right; text-align: right; width: 220px; line-height: 2rem; margin-top: -150px;}
+div#cart_totals {margin-top: -10px; padding: 0; margin-left: 60%;}
+div#cart_totals p { font-weight: bold; font-size: 1rem; line-height: 20px;}
+
+div#wishlist {
+    border-top: 2px solid darkgray;
+    margin: 20px 0 40px;
+}
+div#wishlist ul {margin-top: 30px; }
+div#wishlist ul li span:last-child { font-size: 1.2rem;}
+#outOfStock {position: relative; float: none;  }
+

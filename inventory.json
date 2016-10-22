@@ -1,0 +1,49 @@
+{
+	"items": [
+		{
+			"id": "1",
+			"name": "Paper Towels",
+			"description": "Super absorbent!",
+			"msrp": "19.99",
+			"price": "14.99",
+			"is_on_sale": "0", 
+			"quantity_in_stock": "27"
+		},
+		{
+			"id": "2",
+			"name": "Cheerios",
+			"description": "Delicious!",
+			"msrp": "4.49",
+			"price": "3.99", 
+			"is_on_sale": "0",
+			"quantity_in_stock": "30"
+		},
+		{
+			"id": "3",
+			"name": "Toothpaste",
+			"description": "Extra Whitening!",
+			"msrp": "6.99",
+			"price": "5.99",
+			"is_on_sale": "1",
+			"quantity_in_stock": "2"
+		},
+		{
+			"id": "4",
+			"name": "Soap",
+			"description": "It cleans!",
+			"msrp": "3.99",
+			"price": "2.99",
+			"is_on_sale": "1",
+			"quantity_in_stock": "21"
+		},
+		{
+			"id": "5",
+			"name": "Shampoo",
+			"description": "Can be used on hair!",
+			"msrp": "9.99",
+			"price": "7.99",
+			"is_on_sale": "0",
+			"quantity_in_stock": "0"
+		}
+	]
+}

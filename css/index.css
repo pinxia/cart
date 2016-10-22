@@ -1,0 +1,58 @@
+html, body { 
+    margin: 0; padding: 0; 
+    font-family: "Trebuchet MS", Helvetica, Tahoma, sans-serif; 
+    background-color: whitesmoke;
+}
+
+ul div {display: block; }
+ul {margin: 0; padding:0; list-style: none; }
+.container {
+    width: 80%;
+    min-width: 780px;
+    margin: 0 auto 10px;
+    padding: 0 0 20px;
+    background: #e9e9e9;
+}
+
+div.wrapper {
+    width: 90%; 
+    margin: 0 auto;
+    padding: 0;
+}
+.error { color: red;}
+.italic_style { font-style: italic; font-size: 1.0rem; font-weight: 450;}
+p.lead {font-size: 1.2rem; line-height: 1.2rem;}
+p.pinkybackground { background: pink; }
+p.rightalign {text-align: right; }
+.title { font-size: 1.5rem;}
+ul#inventory_list li {
+    padding-bottom: 30px;
+}
+h1 span {margin-left: 100px; font-size: 1.2rem;}
+ul#inventory_list li:first-child {
+    margin-top: 30px;
+}
+ul#inventoray_list li h3 span { float:right; }
+
+#cart_preview { float: right; position:relative; 
+            margin-top: -130px;
+/*            background: url("cart.png"); 
+            background-size: 80px 50px;*/
+            width: 280px; height: 80px;
+}
+
+hr {margin: 40px 0; padding:0; }
+h1 {font-size: 5rem;}
+h2 {padding-bottom: 30px; font-size: 2.5rem;}
+h3 { width: 300px; font-weight: 700; font-size: 2rem; display: inline;}
+h3 span {float: left; position: relative; width: 250px;}
+.description { font-weight: bold; font-size: small; }
+.price { color: green; font-weight: bold; font-size: 1.5rem; position: relative; float: right; text-align: left;}
+
+.clearer {clear: both; }
+p span { font-size: 1.2rem;}
+.alert {color: red; font-size: 1.5rem; margin-left: 50px;padding-left:0px; float: none;}
+s {font-size: 1.5rem; vertical-align: middle;}
+.borderline { border-top: 2px solid darkgray; margin: 40px 0; padding-bottom: 10px; }
+.onsale{ color: #666; }
+.center {text-align: center;}
